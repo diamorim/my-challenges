@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  /* height: 100vh; */
+}
+
+.img {
+  width: 50%;
+  object-fit: cover;
+  height: 50vh;
+  float: left;
+}

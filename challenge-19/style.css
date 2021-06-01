@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  color: orange;
+  justify-content: center;
+  align-content: flex-start;
+}
+li {
+  list-style: none;
+  padding: 7px;
+}
+.filme-1 {
+  background-image: linear-gradient(to right, red, blue);
+}
+.filme-2 {
+  background-image: linear-gradient(to right, yellow, orange);
+}
+.filme-3 {
+  background-image: linear-gradient(to right, purple, pink);
+}
+
+.filme-4 {
+  background-image: linear-gradient(to right, green, brown);
+}
+section {
+  padding: 0px;
+  border-radius: 1px;
+  border-style: solid;
+}
